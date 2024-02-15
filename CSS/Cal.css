@@ -1,0 +1,28 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+        background: conic-gradient(transparent, black, transparent,purple, transparent);
+    position: absolutely;
+    top: -50px;
+    left: -1200px
+    border-radius: 50%;
+    animation: rotate linear 2s infinity;
+    transform: rotate(360deg);
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+#display {
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 24px;
+}
